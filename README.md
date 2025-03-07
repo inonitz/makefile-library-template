@@ -1,8 +1,10 @@
-# Empty Static/Shared/DLL Library Project Template
-* No License Whatsoever
-* ### **[Note]:**
-    * **If *ANY* directory in the 'setup' recipe is missing, call 'make setup'**
-    * **COMPILER_BASE_FOLDER** environment variable (Name's pretty self explanatory) **MUST BE DEFINED** 
+# Template for a Static/Shared/DLL Library Project
+* Mainly used this template when working with mingw32 on windows  
+* Required tools: Python, Make, And a shell that can run .sh files (e.g mingw32)  
+* Python Script included for generating compile_commands.json files
+* **If *ANY* directory in the 'setup' recipe is missing, call 'make setup'**
+* **COMPILER_BASE_FOLDER** environment variable (Name's pretty self explanatory) **MUST BE DEFINED**
+* License: MIT (see license.txt)
 #### **Clean Object Files**
     * [Debug]   make cleandbg
     * [Release] make cleanrel
